@@ -1,3 +1,5 @@
+//Tema: Tipos de datos y variables
+
 /* En JavaScript, las variables son contenedores para almacenar datos.
 Se pueden declarar variables usando var, let o const.
 let permite declarar variables que pueden cambiar su valor.
@@ -17,11 +19,11 @@ OBJECT: Tipo de dato que representa un objeto, que puede contener múltiples val
 
 // Declarar una variable
 
-let miVariable = "freeCodeCamp";
+let miVariable = "Pepe";
 
 console.log(miVariable);
 
-// Cambiar el valor de la variable
+// Cambiar el valor de la variable 
 miVariable = 16;
 
 miVariable = true;

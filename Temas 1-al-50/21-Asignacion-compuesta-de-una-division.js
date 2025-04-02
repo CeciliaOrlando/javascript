@@ -1,4 +1,5 @@
 /* Tema: Asignación compuesta de división.
+La asignacion compuesta de división es una forma abreviada de escribir una operación de división y asignación en una sola línea de código.
 */
 
 let d = 39;

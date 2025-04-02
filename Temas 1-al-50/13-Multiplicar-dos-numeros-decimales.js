@@ -1,5 +1,5 @@
 /* Tema: Multiplicar dos números decimales con JavaScript.
-  Descripción: En este tema se explica cómo multiplicar dos números decimales en JavaScript.  */
+ */
 
 let producto = 3.4 * 10.4; // 35.36
 console.log(producto);

@@ -1,5 +1,4 @@
-/* Tema: Asignación compuesta de resta.
-*/
+/* Tema: Asignación compuesta de resta. */
 
 let b = 23;
 

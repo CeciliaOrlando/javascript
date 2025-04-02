@@ -1,5 +1,5 @@
 /* Tema: Asignación compuesta de suma.
-*/
+Es cuando quiero sumar un valor a una variable pero no de a uno, sino con otros valores. */
 
 let a = 23;
 
@@ -8,6 +8,8 @@ console.log(a);
 
 a += 5; // 33
 console.log(a);
+
+//Otro ejemplo
 
 let totalVentas = 13567.34; // 13567.34
 console.log(totalVentas);

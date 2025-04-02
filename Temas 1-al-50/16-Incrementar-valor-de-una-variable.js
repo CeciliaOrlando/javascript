@@ -2,7 +2,7 @@
 */
 
 let librosComprados = 105;
-console.log(librosComprados); // Inicialmente
+console.log(librosComprados); // Inicialmente tenemos 105 libros comprados
 
 // Opción 1
 

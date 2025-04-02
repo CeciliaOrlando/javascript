@@ -1,5 +1,4 @@
-/* Tema: Reducir el valor de una variable con JavaScript.
-*/
+/* Tema: Reducir el valor de una variable con JavaScript. */
 
 let númeroDeEstudiantes = 256;
 console.log(númeroDeEstudiantes);

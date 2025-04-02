@@ -2,7 +2,7 @@
 Descripción: En este tema se explica cómo dividir dos números decimales en JavaScript.
 */
 
-var cociente = 5.0 / 2.0; // 2.5
+let  cociente = 5.0 / 2.0; // 2.5
 console.log(cociente);
 
 cociente = 2.3 / 6.7; // 0.34328358208955223

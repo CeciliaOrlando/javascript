@@ -1,5 +1,4 @@
-/* Tema: Asignación compuesta de multiplicación.
-*/
+/* Tema: Asignación compuesta de multiplicación. */
 
 let c = 23;
 

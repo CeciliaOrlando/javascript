@@ -1,10 +1,6 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Definir cadenas con comillas simples.
-*/
+/* Tema: Definir cadenas con comillas simples.*/
 
-var miMeta;
+let  miMeta;
 
 // mensaje = "Aprender a programar con "freeCodeCamp""; // Error
 

@@ -1,4 +1,5 @@
-/* Tema: Definir cadenas con comillas simples.*/
+/* Tema: Definir cadenas con comillas simples.
+*/
 
 let  miMeta;
 

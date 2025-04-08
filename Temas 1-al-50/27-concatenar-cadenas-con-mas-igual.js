@@ -1,11 +1,7 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Concatenar cadenas con +=
-*/
+/* Tema: Concatenar cadenas con += */
 
-var mensajeCompleto = "Estoy aprendiendo a programar ";
+let  mensajeCompleto = "Estoy aprendiendo a programar ";
 
-console.log(mensajeCompleto);
+console.log(mensajeCompleto); // "Estoy aprendiendo a programar "
 mensajeCompleto += "con freeCodeCamp"; // Agregar la cadena al final de la existente.
-console.log(mensajeCompleto);
+console.log(mensajeCompleto); // "Estoy aprendiendo a programar con freeCodeCamp"

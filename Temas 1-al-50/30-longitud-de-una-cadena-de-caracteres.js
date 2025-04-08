@@ -1,25 +1,22 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Longitud de una cadena de caracteres.
-*/
+/* Tema: Longitud de una cadena de caracteres.
+Longitud es la cantidad de caracteres (letras numeros etc) que ocupan en una cadena */
 
-var miCadena;
+let miCadena;
 
 miCadena = "A";
-console.log(miCadena.length);
+console.log(miCadena.length); // 1
 
 miCadena = "AB";
-console.log(miCadena.length);
+console.log(miCadena.length); // 2
 
-var lenguajeDeProgramación = "JavaScript";
-console.log(lenguajeDeProgramación.length);
+let lenguajeDeProgramación = "JavaScript";
+console.log(lenguajeDeProgramación.length); // 10
 
-var mensaje = "¡Estoy aprendiendo a programar!";
-console.log(mensaje.length);
+let mensaje = "¡Estoy aprendiendo a programar!";
+console.log(mensaje.length); // 30
 
-var mensaje = "Estoy aprendiendo a programar";
-console.log(mensaje.length);
+let mensaje = "Estoy aprendiendo a programar";
+console.log(mensaje.length); // 29
 
-var mensaje = "Estoy aprendiendo a programar @#&*";
-console.log(mensaje.length);
+let mensaje = "Estoy aprendiendo a programar @#&*";
+console.log(mensaje.length); // 34

@@ -1,11 +1,8 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Construir cadenas con variables.
-*/
+/* Tema: Construir cadenas con variables.
+Estoy concatenando cadenas y variable llamada verbo*/
 
-var verbo = "programar"
+let verbo = "programar"
 
-var mensaje = "Estoy aprendiendo a " + verbo + " con freeCodeCamp";
+let  mensaje = "Estoy aprendiendo a " + verbo + " con freeCodeCamp";
 
-console.log(mensaje);
+console.log(mensaje); // "Estoy aprendiendo a programar con freeCodeCamp"

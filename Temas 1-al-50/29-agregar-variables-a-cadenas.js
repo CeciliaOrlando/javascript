@@ -1,12 +1,10 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Agregar variables a cadenas.
-*/
+/* Tema: Agregar variables a cadenas. */
 
-var mensajeCompleto = "Estoy aprendiendo a programar ";
-var parteFinal = "con freeCodeCamp";
+// Otra forma de agregar variables a cadenas
 
-console.log(mensajeCompleto);
-mensajeCompleto += parteFinal;
-console.log(mensajeCompleto);
+let mensajeCompleto = "Estoy aprendiendo a programar ";
+let parteFinal = "con freeCodeCamp";
+
+console.log(mensajeCompleto); // "Estoy aprendiendo a programar "
+mensajeCompleto += parteFinal; // Agregando la variable parteFinal a mensajeCompleto
+console.log(mensajeCompleto); // "Estoy aprendiendo a programar con freeCodeCamp"

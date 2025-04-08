@@ -1,11 +1,9 @@
-/*
-Curso de freeCodeCamp: Aprende JavaScript desde Cero - Curso Completo
-Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Notación de Corchetes: de derecha a izquierda.
+/* Tema: Notación de Corchetes: de derecha a izquierda.
+Nos permite acceder a los datos de una cadena de texto.
 */
 
-var miCadena;
-var n;
+let miCadena;
+let n;
 
 /*
 El penúltimo índice es longitud - 2 porque comenzamos
@@ -20,10 +18,16 @@ Cadena:  J  a  v  a  S  c  r  i  p  t
 
 miCadena = "JavaScript";
 console.log(miCadena[miCadena.length - 2]); // p
+// En este caso, la longitud de la cadena es 10 y el índice es 8.
+// El penúltimo índice es longitud - 2 porque comenzamos
+
 
 // Alternativa
 
 miCadena = "JavaScript";
 n = 4;
 
-console.log(miCadena[miCadena.length - n]);
+console.log(miCadena[miCadena.length - n]); // S
+// En este caso, la longitud de la cadena es 10 y el índice es 6.
+// El penúltimo índice es longitud - 2 porque comenzamos
+// a contar desde 0.

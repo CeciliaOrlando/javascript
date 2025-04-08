@@ -1,10 +1,8 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Notación de corchetes: Último Carácter.
+/* Tema: Notación de corchetes: Último Carácter.
+    Descripción: Acceder al último carácter de una cadena.
 */
 
-var miCadena;
+let miCadena;
 
 /*
 El último índice siempre es longitud - 1 porque comenzamos
@@ -18,7 +16,6 @@ Cadena:  J  a  v  a  S  c  r  i  p  t
 */
 
 miCadena = "JavaScript";
-console.log(miCadena[miCadena.length - 1]);
-
+console.log(miCadena[miCadena.length - 1]);  // t.  Entre los corchetes se coloca el índice de la cadena. El ultimo indice es la longitud de la cadena -1. En este caso la longitud de la cadena es 10 y el ultimo indice es 9.
 miCadena = "Python";
-console.log(miCadena[miCadena.length - 1]);
+console.log(miCadena[miCadena.length - 1]); // n

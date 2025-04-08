@@ -1,14 +1,15 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Arreglos en JavaScript.
+/* Tema: Arreglos en JavaScript. Arrays en JavaScript.
+Los arreglos son una estructura de datos que nos permite almacenar múltiples valores en una sola variable.
+Los arreglos pueden contener diferentes tipos de datos, como números, cadenas de texto, booleanos, objetos, etc.
+Los arreglos son dinámicos, lo que significa que pueden crecer o reducirse en tamaño según sea necesario.
+Los arreglos son indexados, lo que significa que cada elemento en el arreglo tiene un índice numérico asociado, comenzando desde 0.
 */
 
-var miArreglo = ["John", 24];
-console.log(miArreglo);
+let miArreglo = ["John", 24];
+console.log(miArreglo); // John 24
 
-var estudiantes = ["Nora", "Gino", "Emily", "Juan"];
-console.log(estudiantes);
+let estudiantes = ["Nora", "Gino", "Emily", "Juan"];
+console.log(estudiantes);   // Nora, Gino, Emily, Juan
 
-var notas = [95, 67, 89, 56];
-console.log(notas);
+let notas = [95, 67, 89, 56];
+console.log(notas); // 95, 67, 89, 56

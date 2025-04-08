@@ -1,13 +1,11 @@
-/*
-Curso de freeCodeCamp: Aprende JavaScript desde Cero - Curso Completo
-Creado por: Estefania Cassingena Navone (@EstefaniaCassN)
-Tema: Inmutabilidad de las cadenas de caracteres.
+/* Tema: Inmutabilidad de las cadenas de caracteres. Nos e pueden modificar los caracteres individuales de una cadena de texto.
+Solo se puede asignar una cadena nueva a la variable, pero no a los caracteres individuales.
 */
 
-var miCadena = "Jola, Mundo";
-console.log(miCadena);
+let miCadena = "Jola, Mundo";
+console.log(miCadena); // Jola, Mundo
 
-miCadena[0] = "H"; // Error porque las cadenas son inmutables.
+miCadena[0] = "H"; // Error porque las cadenas son inmutables. No se pueden modificar los caracteres individuales.
 
 miCadena = "Hola, Mundo"; // Se debe asignar una cadena nueva.
-console.log(miCadena);
+console.log(miCadena); // Hola, Mundo

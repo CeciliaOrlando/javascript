@@ -1,11 +1,11 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Manipular arreglos con .push().
+/* Tema: Manipular arreglos con .push().
+Con el método .push() se pueden agregar elementos al final de un arreglo.
+El método .push() modifica el arreglo original y devuelve la nueva longitud del arreglo.
+El método .push() puede agregar uno o más elementos al final del arreglo.
 */
 
-var estaciones = ["Invierno", "Otoño", "Primavera"]; // Orden alfabético
+let estaciones = ["Invierno", "Otoño", "Primavera"]; // Orden alfabético
 
-console.log(estaciones);
+console.log(estaciones); // Invierno, Otoño, Primavera
 estaciones.push("Verano");  // Agregar al final del arreglo
-console.log(estaciones);
+console.log(estaciones); // Invierno, Otoño, Primavera, Verano

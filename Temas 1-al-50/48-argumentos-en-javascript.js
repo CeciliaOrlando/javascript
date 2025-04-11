@@ -1,4 +1,6 @@
 /*Tema: Argumentos en JavaScript.
+Los argumentos son los valores que se pasan a una función cuando se llama.
+Los argumentos se pasan a la función utilizando parámetros.
 */
 
 function sumar(a, b) {
@@ -6,7 +8,7 @@ function sumar(a, b) {
   console.log("El resultado de " + a + " + " + b + " es: " + suma);
 }
 
-sumar(5, 3);
+sumar(5, 3); //
 sumar(8, 9);
 sumar(2, 4);
 sumar(5, 5);
@@ -14,8 +16,8 @@ sumar(5, 5);
 // Podemos pasar variables como argumentos
 // y sus nombres no tienen que ser iguales a los
 // parámetros.
-var x = 5;
-var y = 3;
+let x = 5;
+let y = 3;
 
 sumar(x, y);
 

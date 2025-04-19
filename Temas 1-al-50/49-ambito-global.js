@@ -1,15 +1,15 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Ámbito global.
+/* Tema: Ámbito global.
+Los argumentos de una función son variables globales, lo que significa que pueden ser usadas fuera de la función. Las variables locales se definene en el programa y no en una funcion, por eso son globales y permite su uso por fuera de la misma.
 */
 
-var miVariableGlobal = 5;
+let miVariableGlobal = 5;
 
-console.log(miVariableGlobal);
+console.log(miVariableGlobal); // 5
 
 function miFuncion() {
-  console.log(miVariableGlobal);
+  console.log(miVariableGlobal); // 5
 }
 
-console.log(miVariableGlobal);
+miFuncion(); // 5
+
+console.log(miVariableGlobal); // 5

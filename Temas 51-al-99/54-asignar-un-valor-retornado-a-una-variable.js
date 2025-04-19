@@ -1,22 +1,20 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Asignar un valor retornado a una variable.
+/* Tema: Asignar un valor retornado a una variable.
+La palabra clave return se utiliza para retornar un valor de una función.
 */
 
 function sumar(a, b) {
-  return a + b;
+  return a + b; // Retornar la suma de a y b
 }
 
-// Se asigna el valor retornado a una variable 
-var resultado = sumar(5, 3);
-console.log(resultado);
+// Se asigna el valor retornado a una variable
+let resultado = sumar(5, 3);
+console.log(resultado); // 8
 
 // Ejemplo
 
 function crearCadenaConMeta(lenguajeDeProgramacion) {
-  return "Mi meta es aprender " + lenguajeDeProgramacion;
+  return "Mi meta es aprender " + lenguajeDeProgramacion; // Retornar la cadena
 }
 
-var miMeta = crearCadenaConMeta("JavaScript");
-console.log(miMeta);
+let miMeta = crearCadenaConMeta("JavaScript");
+console.log(miMeta); // Mi meta es aprender JavaScript

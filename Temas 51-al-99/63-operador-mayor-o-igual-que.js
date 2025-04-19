@@ -1,10 +1,6 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Operador "mayor o igual que" en JavaScript.
-*/
+/* Tema: Operador "mayor o igual que" en JavaScript. */
 
 // Mayor o igual que: >=
 
-console.log(5 > 5);  // false
-console.log(5 >= 5); // true
+console.log(5 > 5);  // false 5 es menor que 5
+console.log(5 >= 5); // true 5 es mayor o igual que 5

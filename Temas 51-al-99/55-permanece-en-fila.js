@@ -1,8 +1,4 @@
-//*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Permanece en fila.
-*/
+//* Tema: Permanece en fila.
 
 /* En informática una cola (queue) es una estructura de datos abstracta
 en la cual los elementos se mantienen en orden. Los nuevos elementos se pueden
@@ -19,8 +15,10 @@ function proximoEnLaFila(arreglo, elemento) {
   return arreglo.shift(); // Remover el primer elemento y retornarlo.
 }
 
-var miArreglo = [1, 2, 3, 4, 5];
+let  miArreglo = [1, 2, 3, 4, 5];
 
-console.log("Antes: " + JSON.stringify(miArreglo));
-console.log(próximoEnLaFila(miArreglo, 6));
-console.log("Después: " + JSON.stringify(miArreglo));
+console.log("Antes: " + JSON.stringify(miArreglo));  // "Antes: [1, 2, 3, 4, 5]"
+console.log(próximoEnLaFila(miArreglo, 6)); // 1
+console.log("Después: " + JSON.stringify(miArreglo)); // "Después: [2, 3, 4, 5, 6]"
+
+// JSON.stringify() convierte un arreglo en una cadena JSON [1, 2, 3, 4, 5]. Esto permite mostrarlo en la consola. JSON es un formato de intercambio de datos en JavaScript.

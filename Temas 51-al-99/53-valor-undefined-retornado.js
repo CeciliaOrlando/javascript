@@ -1,7 +1,5 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Valor "undefined" retornado por una función.
+/* Tema: Valor "undefined" retornado por una función.
+Tenemos el valor "undefined" porque no hemos establecido la sentencia return
 */
 
 function sumar(a, b) {

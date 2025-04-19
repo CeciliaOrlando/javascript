@@ -1,11 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sentencias switch: opción predeterminada.
+/* Tema: Sentencias switch: opción predeterminada.
+La opcion predeterminada se utiliza para ejecutar un bloque de codigo si ninguna de las opciones anteriores es verdadera. Se usa por default. 
 */
 
 function seleccionarIdioma(valor) {
-  var idioma;
+  let idioma;
   switch (valor) {
     case 1:
       idioma = "Español";
@@ -16,14 +14,14 @@ function seleccionarIdioma(valor) {
     case 3:
       idioma = "Italiano";
       break;
-    default:
+    default: // Opcion predeterminada
       idioma = "Inglés";
       break;
   }
   return idioma;
 }
 
-console.log(seleccionarIdioma(1));
-console.log(seleccionarIdioma(2));
-console.log(seleccionarIdioma(3));
-console.log(seleccionarIdioma(4));
+console.log(seleccionarIdioma(1));  // Español
+console.log(seleccionarIdioma(2));  // Francés
+console.log(seleccionarIdioma(3));  // Italiano
+console.log(seleccionarIdioma(4));  // Inglés

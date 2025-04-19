@@ -1,7 +1,5 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Operador de igualdad en JavaScript.
+/* Tema: Operador de igualdad en JavaScript.
+El operador de igualdad (==) compara tanto el valor como el tipo de dato. 
 */
 
 console.log(5 == 5); // true

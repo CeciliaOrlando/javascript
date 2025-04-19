@@ -1,7 +1,5 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Operador lógico "not" en JavaScript.
+/* Tema: Operador lógico "not" en JavaScript.
+El operador lógico "not" (!) niega la expresión.
 */
 
 /*
@@ -14,13 +12,13 @@ Tema: Operador lógico "not" en JavaScript.
 */
 
 // Comprobemos la tabla de verdad
-console.log(!true);
-console.log(!false);
+console.log(!true); // false
+console.log(!false);   // true
 
-var a = 8;
+let a = 8;
 
 // !(a > 5) --> !true --> false
-console.log(!(a > 5));
+console.log(!(a > 5));  // false
 
 // !(a < 5) --> !false --> true
-console.log(!(a < 5));
+console.log(!(a < 5)); // true

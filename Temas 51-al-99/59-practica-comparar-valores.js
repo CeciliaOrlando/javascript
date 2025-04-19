@@ -1,30 +1,27 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Practica cómo comparar valores.
+/* Tema: Practica cómo comparar valores.
 */
 
-var a;
-var b;
+let a;
+let b;
 
 a = 5;
 b = 5;
 
-console.log(a == b);  // true
-console.log(a === b); // true
+console.log(a == b);  // true  5 == 5
+console.log(a === b); // true  5 === 5
 
 b = 8;
 
-console.log(a == b);  // false
-console.log(a === b); // false
+console.log(a == b);  // false   5 == 8
+console.log(a === b); // false  5 === 8
 
 b = "5";
 
-console.log(a == b);  // true
-console.log(a === b); // false
+console.log(a == b);  // true  5 == "5"
+console.log(a === b); // false 5 === "5"
 
 a = "JavaScript";
 b = "Javascript";
 
-console.log(a == b);  // true
-console.log(a === b); // true
+console.log(a == b);  // true  JavaScript == Javascript
+console.log(a === b); // true JavaScript === Javascript

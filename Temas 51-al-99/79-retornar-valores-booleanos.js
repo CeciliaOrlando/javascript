@@ -1,7 +1,4 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Retornar valores booleanos.
+/* Tema: Retornar valores booleanos.
 */
 
 // Inicialmente

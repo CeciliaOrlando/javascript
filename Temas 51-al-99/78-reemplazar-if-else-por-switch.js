@@ -1,11 +1,8 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Reemplazar if...else por switch.
+/* Tema: Reemplazar if...else por switch.
 */
 
 function seleccionarIdioma(valor) {
-  var idioma;
+  let idioma;
 
   if (valor == 1) {
       idioma = "Español";

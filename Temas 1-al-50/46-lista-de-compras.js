@@ -1,4 +1,4 @@
-/* Tema: Lista de compras.
+/* Tema: Lista de compras
 */
 
 let miListaDeCompras = [["cereal", 3], ["leche", 2], ["galletas", 4],

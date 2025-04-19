@@ -1,7 +1,5 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Valores booleanos en JavaScript.
+/* Tema: Valores booleanos en JavaScript.
+Los valores booleanos son verdadero (true) y falso (false). 
 */
 
 console.log(true); // Correcto

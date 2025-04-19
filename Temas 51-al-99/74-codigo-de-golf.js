@@ -1,8 +1,4 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Código de Golf
-*/
+/* Tema: Código de Golf */
 
 /*
 En el juego de golf cada hoyo tiene un par que
@@ -31,21 +27,21 @@ par + 2	           "Double Bogey"
 par y golpes siempre serán numéricos y positivos.
 */
 
-function puntajeDeGolf(par, golpes) {
-  if (golpes == 1) {
-    return "Hole-in-one!";
-  } else if (golpes <= par - 2) {
-    return "Eagle";
-  } else if (golpes == par - 1) {
-    return "Birdie";
-  } else if (golpes == par) {
-    return "Par";
-  } else if (golpes == par + 1) {
-    return "Bogey";
-  } else if (golpes == par + 2) {
-    return "Double Bogey";
-  } else if (golpes >= par + 3) {
-    return "Go Home!";
+function puntajeDeGolf(par, golpes) { // funcion puntajeDeGolf con parametros par y golpes
+  if (golpes == 1) {                  // si golpes es igual a 1
+    return "Hole-in-one!";            // retorna "Hole-in-one!"
+  } else if (golpes <= par - 2) {     // si golpes es menor o igual a par - 2
+    return "Eagle";                   // retorna "Eagle"
+  } else if (golpes == par - 1) {     // si golpes es igual a par - 1
+    return "Birdie";                  // retorna "Birdie"
+  } else if (golpes == par) {         // si golpes es igual a par
+    return "Par";                     // retorna "Par"
+  } else if (golpes == par + 1) {     //  si golpes es igual a par + 1
+    return "Bogey";                   //  retorna "Bogey"
+  } else if (golpes == par + 2) {     // si golpes es igual a par + 2
+    return "Double Bogey";            // retorna "Double Bogey"
+  } else if (golpes >= par + 3) {     //  si golpes es mayor o igual a par + 3
+    return "Go Home!";                // retorna "Go Home!"
   }
 }
 

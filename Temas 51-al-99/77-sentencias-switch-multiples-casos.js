@@ -1,11 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sentencias switch: múltiples casos.
+/* Tema: Sentencias switch: múltiples casos.
+
 */
 
 function clasificarVolumen(valor) {
-  var volumen;
+  let volumen;
   switch (valor) {
     case 1:
       volumen = "bajo";
@@ -23,6 +21,6 @@ function clasificarVolumen(valor) {
   return volumen;
 }
 
-clasificarVolumen(1);
-clasificarVolumen(3);
-clasificarVolumen(5);
+clasificarVolumen(1);  // "bajo"
+clasificarVolumen(3);  // "intermedio"
+clasificarVolumen(5);  // "alto"

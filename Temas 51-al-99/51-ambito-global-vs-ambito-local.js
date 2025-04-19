@@ -1,16 +1,14 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Ámbito global vs. ámbito local en funciones.
+/* Tema: Ámbito global vs. ámbito local en funciones.
+El ámbito global se refiere a las variables declaradas fuera de las funciones.
+El ámbito local se refiere a las variables declaradas dentro de las funciones.
 */
 
-var miNombre = "Nora";
+let  miNombre = "Nora";
 
 function mostrarMiNombre() {
-  var miNombre = "Gino";
-  console.log(miNombre);
+  let miNombre = "Gino"; // Gino -variable local
 }
 
-mostrarMiNombre();
+mostrarMiNombre(); // Gino - variable local, llamo a la funcion donde esta la variable local
 
-console.log(miNombre);
+console.log(miNombre); // Nora - variable global llamada fuera de la funcion. estamos por fuera de la funcion 

@@ -1,11 +1,8 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Retornar un valor de una función.
-*/
+/* Tema: Retornar un valor de una función.
+La palabra clave return se utiliza para retornar un valor de una función. */
 
 function sumar(a, b) {
-  return a + b;
+  return a + b;  // Retornar el valor de la suma de a y b para que se muestre en la consola
 }
 
 sumar(5, 3); // No se muestra nada en la consola

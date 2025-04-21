@@ -1,10 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Verificar las propiedades de un objeto.
+/* Tema: Verificar las propiedades de un objeto.
+Las propiedades de un objeto se pueden verificar utilizando la propiedad hasOwnProperty.
+Esto me permite saber si un objeto tiene una propiedad en particular. 
 */
 
-var miCuaderno = {
+let  miCuaderno = {
   "color": "verde",
   "categoria": 3,
   "precio": 4.56

@@ -1,10 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Objetos complejos en JavaScript.
+/* Tema: Objetos complejos en JavaScript.
+Los objetos complejos son estructuras de datos que permiten almacenar datos en pares clave-valor.
+En JavaScript, se pueden usar objetos complejos para representar estructuras complejas de datos.
 */
 
-var ordenesDePizzas = [
+let ordenesDePizzas = [
   {
     "tipo": "margarita",
     "tamaño": "individual",
@@ -28,18 +27,18 @@ var ordenesDePizzas = [
   }
 ];
 
-console.log(ordenesDePizzas[0]);
-console.log(ordenesDePizzas[1]);
+console.log(ordenesDePizzas[0]);  // {tipo: 'margarita', tamaño: 'individual', precio: 5.67, toppings: Array(3), paraLlevar: true}
+console.log(ordenesDePizzas[1]);  // {tipo: 'cuatro quesos', tamaño: 'familiar', precio: 18.34, toppings: Array(2), paraLlevar: false}
 
-console.log(ordenesDePizzas[0].tipo);
-console.log(ordenesDePizzas[0]["tipo"]);
+console.log(ordenesDePizzas[0].tipo);  // margarita
+console.log(ordenesDePizzas[0]["tipo"]);  // margarita
 
-console.log(ordenesDePizzas[0].precio);
-console.log(ordenesDePizzas[0]["precio"]);
+console.log(ordenesDePizzas[0].precio);   // 5.67
+console.log(ordenesDePizzas[0]["precio"]);  // 5.67
 
 // Añadiendo una tercera pizza
 
-var ordenesDePizzas = [
+let ordenesDePizzas = [
   {
     "tipo": "margarita",
     "tamaño": "individual",

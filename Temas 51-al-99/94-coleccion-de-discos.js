@@ -1,8 +1,4 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Colección de discos.
-*/
+/* Tema: Colección de discos. */
 
 /*
 Tenemos un objeto que representa parte de una colección
@@ -14,7 +10,7 @@ asociado a otras propiedades.
 No todos los álbumes tienen la información completa.
 */
 
-var coleccionDeDiscos = {
+let coleccionDeDiscos = {
   7853: {
     tituloDelAlbum: "Bee Gees Greatest",
     artista: "Bee Gees",
@@ -62,12 +58,12 @@ function actualizarDiscos(discos, id, propiedad, valor) {
   }
 }
 
-console.log(coleccionDeDiscos);
+console.log(coleccionDeDiscos);  // {7853: {...}, 5439: {...}}
 actualizarDiscos(coleccionDeDiscos, 7853, "tituloDelAlbum", "");
-console.log(coleccionDeDiscos);
+console.log(coleccionDeDiscos); // {7853: {...}, 5439: {...}}
 
 actualizarDiscos(coleccionDeDiscos, 5439, "canciones", "Mamma Mia");
-console.log(coleccionDeDiscos);
+console.log(coleccionDeDiscos); // {7853: {...}, 5439: {...}}
 
 actualizarDiscos(coleccionDeDiscos, 5439, "artista", "ABBA");
-console.log(coleccionDeDiscos);
+console.log(coleccionDeDiscos); // {7853: {...}, 5439: {...}}

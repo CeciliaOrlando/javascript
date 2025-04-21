@@ -1,7 +1,6 @@
-
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sintaxis de desestructuración (objetos).
+/* Tema: Sintaxis de desestructuración (objetos).
+En Javascript se puede usar la sintaxis de desestructuración para obtener las propiedades de un objeto.
+Esto permite obtener los valores de las propiedades de un objeto y asignarlos a variables individuales.
 */
 
 // Para Objetos
@@ -19,19 +18,19 @@ const {nombre, edad} = usuario;
 
 // Ejemplo
 
-var coordenadas = {
+let coordenadas = {
   x: 4,
   y: 6,
   z: 12
 };
 
 // Anteriormente.
-var x = coordenadas.x;
-var y = coordenadas.y;
-var z = coordenadas.z;
+let x = coordenadas.x;
+let y = coordenadas.y;
+let z = coordenadas.z;
 
 // Ahora podemos usar la sintaxis de desestructuración.
 const {x, y, z} = coordenadas;
-console.log(x);
-console.log(y);
-console.log(z);
+console.log(x); // 4
+console.log(y); // 6
+console.log(z); // 12

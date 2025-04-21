@@ -1,17 +1,15 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Acceder a propiedades: notación de punto.
+/*  Tema: Acceder a propiedades: notación de punto.
+Para acceder a las propiedades de un objeto en JavaScript, se utiliza la notación de punto. Significa que se accede a la propiedad utilizando el nombre de la propiedad seguido de un punto y el nombre de la propiedad a la que quiero acceder en el objeto.
 */
 
-var miPerro = {
+let miPerro = {
   "nombre": "Gino",
   "edad": 5,
   "peso": 6,
   "raza": "Beagle",
 };
 
-console.log(miPerro.nombre);
-console.log(miPerro.edad);
-console.log(miPerro.peso);
-console.log(miPerro.raza);
+console.log(miPerro.nombre); // Gino
+console.log(miPerro.edad); // 5
+console.log(miPerro.peso); // 6
+console.log(miPerro.raza); // Beagle

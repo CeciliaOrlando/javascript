@@ -1,10 +1,7 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Búsqueda de perfiles.
+/* Tema: Búsqueda de perfiles.
 */
 
-var contactos = [
+let contactos = [
   {
     "nombre": "Nora",
     "apellido": "Nav",
@@ -26,17 +23,17 @@ var contactos = [
 ];
 
 function buscarPerfil(nombre, propiedad) {
-  for (var i = 0; i < contactos.length; i++) {
-    if (contactos[i].nombre === nombre) {
-        return contactos[i][propiedad] || "La propiedad no existe";
+  for (let i = 0; i < contactos.length; i++) { // Recorremos los contactos en la lista.
+    if (contactos[i].nombre === nombre) {  // Si el contacto tiene el nombre buscado, devuelve el valor de la propiedad.
+        return contactos[i][propiedad] || "La propiedad no existe";  // Si la propiedad no existe, devuelve "La propiedad no existe".
     }
   }
   return "El contacto no está en la lista";
 }
 
-buscarPerfil("Nora", "gustos");
-buscarPerfil("Harry", "apellido");
-buscarPerfil("Sherlock", "apellido");
+buscarPerfil("Nora", "gustos"); //  ["Pizza", "Programación"]
+buscarPerfil("Harry", "apellido"); // "Potter"
+buscarPerfil("Sherlock", "apellido"); // "Holmes"
 
 buscarPerfil("Nora", "dirección"); // La propiedad no existe.
 buscarPerfil("Bob", "numero");     // El contacto no existe.

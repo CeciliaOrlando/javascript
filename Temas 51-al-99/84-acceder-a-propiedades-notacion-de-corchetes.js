@@ -1,10 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Acceder a propiedades: notación de corchetes.
+/* Tema: Acceder a propiedades: notación de corchetes.
+Tambien podemos acceder a propiedades de un objeto utilizando la notación de corchetes.
+La diferencia entre la notación de punto y la notación de corchetes es que la notación de corchetes se utiliza cuando el nombre de la propiedad contiene espacios.
 */
 
-var miCuaderno = {
+let miCuaderno = {
   "color": "verde",
   "categoria": 3,
   "numero de paginas": 200,
@@ -17,15 +16,16 @@ console.log(miCuaderno.color);    // Notación de punto
 console.log(miCuaderno["numero de paginas"]); // Notación de corchetes
 // console.log(miCuaderno.numero de paginas); // No funciona porque tiene espacios
 
+
 // Posibles modificaciones
 
 // camelCase (más común)
-var miCuaderno = {
+let miCuaderno = {
   "color": "verde",
   "categoria": 3,
   "numeroDePaginas": 200,
   "numeroDeHojas": 100
 };
 
-console.log(miCuaderno.numeroDePaginas);
-console.log(miCuaderno.numeroDeHojas);
+console.log(miCuaderno.numeroDePaginas);  // Notación de punto
+console.log(miCuaderno.numeroDeHojas); // Notación de punto

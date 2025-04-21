@@ -1,10 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Arreglos anidados.
+/* Tema: Arreglos anidados.
+Los Arreglos anidados son estructuras de datos que permiten almacenar datos en pares clave-valor.
+Los arreglos anidados permiten crear estructuras como tener un arreglo dentro de otro
 */
 
-var misPlantas = [
+let misPlantas = [
   {
     tipo: "flores",
     lista: [
@@ -23,8 +22,8 @@ var misPlantas = [
   }
 ];
 
-var primeraFlor = misPlantas[0].lista[0];
-console.log(primeraFlor);
+let primeraFlor = misPlantas[0].lista[0];
+console.log(primeraFlor); // rosas
 
 var segundoArbol = misPlantas[1].lista[1];
-console.log(segundoArbol);
+console.log(segundoArbol); // pino

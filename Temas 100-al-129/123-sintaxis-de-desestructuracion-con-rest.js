@@ -1,12 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sintaxis de desestructuración con el operador rest para reasignar un arreglo.
+/* Tema: Sintaxis de desestructuración con el operador rest para reasignar un arreglo.
 */
 
-var a;
-var b;
-var arr;
+let  a;
+let b;
+let arr;
 
 [a, b, ...arr] = [1, 2, 3, 4, 5, 6];
 
@@ -20,8 +17,8 @@ const arregloInicial = [1, 2, 3, 4, 5, 6, 7, 8];
 
 function removerTresPrimerosElementos(arreglo) {
   const [ , , ...nuevoArreglo] = arreglo;
-  return nuevoArreglo;
+  return nuevoArreglo; // [4, 5, 6, 7, 8]
 }
 
 const arregloFinal = removerTresPrimerosElementos(arregloInicial);
-console.log(arregloFinal);
+console.log(arregloFinal); // [4, 5, 6, 7, 8]

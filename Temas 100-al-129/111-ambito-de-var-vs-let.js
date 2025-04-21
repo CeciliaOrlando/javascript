@@ -1,7 +1,6 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Ámbito de var vs. let.
+/* Tema: Ámbito de var vs. let.
+En JavaScript, las variables declaradas con la palabra clave var tienen un alcance global y pueden ser accedidas desde cualquier parte del código.
+En cambio, las variables declaradas con la palabra clave let tienen un alcance local y pueden ser accedidas solo dentro del bloque donde se declararon.
 */
 
 var miVariableGlobal = 4;

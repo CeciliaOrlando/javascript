@@ -1,7 +1,5 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Mutar un arreglo declarado con const.
+/* Tema: Mutar un arreglo declarado con const.
+En javascript podemos mutar un arreglo declarado con la palabra clave const. Esto significa que podemos modificar sus elementos, pero no podemos cambiar el arreglo completo. Lo podemos hacer con el indice de la notación de corchetes.
 */
 
 const MI_ARREGLO = [1, 2, 3, 4];
@@ -14,4 +12,4 @@ MI_ARREGLO[1] = 6;
 MI_ARREGLO[2] = 7;
 MI_ARREGLO[3] = 8;
 
-console.log(MI_ARREGLO);
+console.log(MI_ARREGLO); // [5, 6, 7, 8]

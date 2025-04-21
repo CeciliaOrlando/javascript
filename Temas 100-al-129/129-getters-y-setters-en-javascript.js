@@ -1,7 +1,6 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Getters y setters en JavaScript.
+/* Tema: Getters y setters en JavaScript.
+En Javascript, los getters y setters son funciones que se utilizan para acceder y modificar las propiedades de una clase.
+Esto permite controlar el acceso y la modificación de las propiedades de una clase.
 */
 
 class Libro {
@@ -21,7 +20,7 @@ class Libro {
 }
 
 const libro = new Libro("anónimo");
-console.log(libro.autor);
+console.log(libro.autor); // anónimo
 
 libro.autor = "Gino Smith";
-console.log(libro.autor);
+console.log(libro.autor); // Gino Smith

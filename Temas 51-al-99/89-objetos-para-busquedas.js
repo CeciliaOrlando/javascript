@@ -1,14 +1,14 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Objetos para hacer búsquedas.
+/* Tema: Objetos para hacer búsquedas.
+Los objetos para hacer busquedas son estructuras de datos que permiten almacenar datos en pares clave-valor.
+En JavaScript, se pueden usar objetos para hacer búsquedas en un arreglo de objetos.
+
 */
 
 // Inicialmente es una sentencia switch
 // y vamos a reemplazarla con un objeto.
 
 function buscarElementoQuimico(simbolo) {
-  var elementoQuimico = "";
+  let elementoQuimico = "";
 
   switch (simbolo) {
     case "Al":
@@ -33,12 +33,12 @@ function buscarElementoQuimico(simbolo) {
   return elementoQuimico;
 }
 
-console.log(buscarElementoQuimico("Al"));
-console.log(buscarElementoQuimico("S"));
-console.log(buscarElementoQuimico("Cl"));
-console.log(buscarElementoQuimico("He"));
-console.log(buscarElementoQuimico("B"));
-console.log(buscarElementoQuimico("Li"));
+console.log(buscarElementoQuimico("Al"));  // Aluminio
+console.log(buscarElementoQuimico("S"));  // Azufre
+console.log(buscarElementoQuimico("Cl"));  // Cloro
+console.log(buscarElementoQuimico("He"));  // Helio
+console.log(buscarElementoQuimico("B"));  // Boro
+console.log(buscarElementoQuimico("Li")); // Litio
 
 // Podemos cambiar switch por un objeto.
 

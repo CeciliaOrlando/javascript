@@ -1,10 +1,9 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Objetos anidados.
+/* Tema: Objetos anidados.
+Los objetos anidados son estructuras de datos que permiten almacenar datos en pares clave-valor.
+Los objetos anidados permiten crear estructuras como tener un objeto dentro de otro
 */
 
-var miReceta = {
+let  miReceta = {
   "descripcion": "mi postre favorito",
   "costo": 15.6,
   "ingredientes": {
@@ -21,22 +20,22 @@ var miReceta = {
   }
 };
 
-console.log(miReceta.descripcion);
-console.log(miReceta.costo);
-console.log(miReceta.ingredientes);
+console.log(miReceta.descripcion);  // mi postre favorito
+console.log(miReceta.costo);         // 15.6
+console.log(miReceta.ingredientes);   // {masa: {...}, cobertura: {...}}
 
-console.log(miReceta.ingredientes.masa);
+console.log(miReceta.ingredientes.masa);  // {harina: '100 grs', sal: '1 cucharadita', agua: '1 taza'}
 
-console.log(miReceta.ingredientes.masa.harina);
-console.log(miReceta.ingredientes.masa.sal);
-console.log(miReceta.ingredientes.masa.agua);
+console.log(miReceta.ingredientes.masa.harina);  // 100 grs
+console.log(miReceta.ingredientes.masa.sal);     // 1 cucharadita
+console.log(miReceta.ingredientes.masa.agua);    // 1 taza
 
-console.log(miReceta.ingredientes.masa["harina"]);
-console.log(miReceta.ingredientes.masa["sal"]);
-console.log(miReceta.ingredientes.masa["agua"]);
+console.log(miReceta.ingredientes.masa["harina"]);    // 100 grs
+console.log(miReceta.ingredientes.masa["sal"]);       //  1 cucharadita
+console.log(miReceta.ingredientes.masa["agua"]);      // 1 taza
 
-console.log(miReceta.ingredientes.cobertura);
+console.log(miReceta.ingredientes.cobertura);     // {azucar: '120 grs', chocolate: '4 cucharadas', mantequilla: '200 grs'}
 
-console.log(miReceta.ingredientes.cobertura.azucar);
-console.log(miReceta.ingredientes.cobertura.chocolate);
-console.log(miReceta.ingredientes.cobertura.mantequilla);
+console.log(miReceta.ingredientes.cobertura.azucar);  // 120 grs
+console.log(miReceta.ingredientes.cobertura.chocolate);   // 4 cucharadas
+console.log(miReceta.ingredientes.cobertura.mantequilla);   // 200 grs

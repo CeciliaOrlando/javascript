@@ -1,38 +1,37 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Ciclo "while" en JavaScript.
+/* Tema: Ciclo "while" en JavaScript.
+El ciclo "while" se utiliza para ejecutar un bloque de instrucciones mientras una condición sea verdadera.
+
 */
 
 // Ejemplo 1
 
-var i = 0;
+let i = 0;
 
-while (i <= 3) {
-  console.log("Hola, Mundo");
-  i++;
+while (i <= 3) {  // Mientras i sea menor o igual a 3
+  console.log("Hola, Mundo"); // Imprimir "Hola, Mundo" 4 veces
+  i++; // Incrementar i
 }
 
 // Ejemplo 2
 
-var miArreglo = [];
-var i;
+let miArreglo = [];
+let i;
 
-console.log(miArreglo);
+console.log(miArreglo); // []
 
-while (i < 10) {
-  miArreglo.push(i);
-  i++;
+while (i < 10) {  // Mientras i sea menor a 10
+  miArreglo.push(i); // Agregar i al arreglo
+  i++; // Incrementar i
 }
 
-console.log(miArreglo);
+console.log(miArreglo); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // Ejemplo 3
 
-var numeros = [2, 3, 4, 5, 6, 8, 9, 34];
+let numeros = [2, 3, 4, 5, 6, 8, 9, 34];
 
-while (numeros.length > 4) {
+while (numeros.length > 4) { //
   numeros.pop(); // Remover el último número.
 }
 
-console.log(numeros);
+console.log(numeros); // [2, 3, 4, 5]

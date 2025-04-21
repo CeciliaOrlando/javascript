@@ -1,10 +1,7 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sintaxis de desestructuración para pasar un objeto.
+/* Tema: Sintaxis de desestructuración para pasar un objeto.
 */
 
-var nuevoPerfilCliente = {
+let nuevoPerfilCliente = {
   nombre: "Jane Doe",
   edad: 24,
   nacionalidad: "Española",
@@ -13,10 +10,10 @@ var nuevoPerfilCliente = {
 
 const actualizarPerfil = (informacionDePerfil) => {
   const {nombre, edad, nacionalidad, ubicacion} = informacionDePerfil;
-  console.log(nombre);
-  console.log(edad);
-  console.log(nacionalidad);
-  console.log(ubicacion);
+  console.log(nombre);  // Jane Doe
+  console.log(edad);  // 24
+  console.log(nacionalidad);  // Española
+  console.log(ubicacion);  // España
 }
 
 actualizarPerfil(nuevoPerfilCliente);
@@ -25,10 +22,10 @@ actualizarPerfil(nuevoPerfilCliente);
 // en la lista de parámetros.
 
 const actualizarPerfil = ({nombre, edad, nacionalidad, ubicacion}) => {
-  console.log(nombre);
-  console.log(edad);
-  console.log(nacionalidad);
-  console.log(ubicacion);
+  console.log(nombre);  // Jane Doe
+  console.log(edad);    // 24
+  console.log(nacionalidad);  // Española
+  console.log(ubicacion);  // España
 }
 
 actualizarPerfil(nuevoPerfilCliente);
@@ -49,4 +46,4 @@ const mitad = (e) => (e.max + e.min) / 2.0;
 // Usando la sintaxis de desestructuración para pasar un objeto.
 const mitad = ({max, min}) => (max + min) / 2.0;
 
-console.log(mitad(estadisticas));
+console.log(mitad(estadisticas));  // 27.3

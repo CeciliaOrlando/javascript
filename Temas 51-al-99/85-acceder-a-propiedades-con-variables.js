@@ -1,16 +1,14 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Acceder a propiedades: variables.
+/*  Tema: Acceder a propiedades: variables.
+Las propiedades de un objeto se pueden acceder utilizando variables.
 */
 
-var resultados = {
+let resultados = {
   1: "nora256",
   2: "gino577",
   3: "estef543",
   4: "kiara566"
 };
 
-var posicion = 4;
+let  posicion = 4; 
 
-console.log(resultados[posicion]);
+console.log(resultados[posicion]); // kiara566

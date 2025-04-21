@@ -1,7 +1,4 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Sintaxis de desestructuración (Objetos Anidados).
+/* Tema: Sintaxis de desestructuración (Objetos Anidados).
 */
 
 const usuario = {
@@ -13,15 +10,15 @@ const usuario = {
 
 const { johnDoe: { edad, correo }} = usuario;
 
-console.log(edad);
-console.log(correo);
+console.log(edad); // 27
+console.log(correo); // johnDoe@freecodecamp.com
 
 // Asignar nombres distintos a las variables
 
 const { johnDoe: { edad: edadDelUsuario, correo: correoDelUsuario }} = usuario;
 
-console.log(edadDelUsuario);
-console.log(correoDelUsuario);
+console.log(edadDelUsuario); // 27
+console.log(correoDelUsuario); //
 
 // Ejemplo
 
@@ -46,12 +43,12 @@ const maximaHoy = PRONOSTICO_LOCAL.hoy.maxima;
 // Asignar las propiedades individualmente
 
 const {hoy: {minima: minimaHoy}} = PRONOSTICO_LOCAL;
-console.log(minimaHoy);
+console.log(minimaHoy); // 64
 
 const {hoy: {maxima: maximaHoy}} = PRONOSTICO_LOCAL;
-console.log(maximaHoy);
+console.log(maximaHoy); // 77
 
 // Asignar ambas propiedades
 
 const {hoy: {minima: minimaHoy, maxima: maximaHoy}} = PRONOSTICO_LOCAL;
-console.log(minimaHoy, maximaHoy);
+console.log(minimaHoy, maximaHoy); // 64 77

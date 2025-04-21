@@ -1,7 +1,7 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Métodos en JavaScript.
+/* Tema: Métodos en JavaScript.
+En javaScript, los métodos son funciones que se utilizan para realizar acciones en objetos.
+Sirven para encapsular la lógica de un objeto y permitir que los objetos realicen acciones.
+Se llaman métodos a las funciones que se definen dentro de un objeto.
 */
 
 // Versión ES5
@@ -13,7 +13,7 @@ const persona = {
   }
 };
 
-console.log(persona.presentarse());
+console.log(persona.presentarse()); // ¡Hola! Mi nombre es Isabel.
 
 // Versión ES6
 
@@ -24,4 +24,4 @@ const persona = {
   }
 };
 
-persona.presentarse();
+persona.presentarse(); // ¡Hola! Mi nombre es Isabel

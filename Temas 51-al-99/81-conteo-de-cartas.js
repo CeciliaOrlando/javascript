@@ -37,39 +37,39 @@ El conteo actual y la decisión del jugador
 ("Apostar" o "Esperar") deben estar separados por un espacio.
 */
 
-var conteo = 0;
+let conteo = 0;  // variable global que representa el conteo que tiene el jugador y comienza en cero y esta por furera de la funcion
 
-function contarCartas(carta) {
-  var decision;
+function contarCartas(carta) { // funcion que recibe un parametro carta
+  var decision; // variable local que representa la decision del jugador esta dentro de la funcion
 
-  switch (carta) {
+  switch (carta) { // segun el valor de la carta se aumenta o disminuye el conteo
     case 2:
     case 3:
     case 4:
     case 5:
     case 6:
-        conteo++;
-        break;
+        conteo++;  // aumenta el conteo
+        break;     // termina el switch
     case 10:
     case "J":
     case "Q":
     case "K":
     case "A":
-        conteo--;
-        break;
+        conteo--;  // disminuye el conteo
+        break;     // termina el switch
   }
 
-  if (conteo > 0) {
-    decision = "Apostar";
-  } else {
-    decision = "Esperar";
+  if (conteo > 0) {          // si el conteo es mayor a cero
+    decision = "Apostar";   // la decision es apostar
+  } else {                  // si el conteo es menor o igual a cero
+    decision = "Esperar";   // la decision es esperar
   }
 
-  return conteo + " " + decision;
+  return conteo + " " + decision;  // retorna el conteo y la decision
 }
 
-contarCartas(2);
-contarCartas(3);
-contarCartas(7);
-contarCartas("K");
-contarCartas("A");
+contarCartas(2);  // llama a la funcion contarCartas con el parametro 2 y  aumenta el conteo
+contarCartas(3);  // llama a la funcion contarCartas con el parametro 3 y aumenta el conteo
+contarCartas(7);  // llama a la funcion contarCartas con el parametro 7 y disminuye el conteo
+contarCartas("K");  // llama a la funcion contarCartas con el parametro "K" y disminuye el conteo
+contarCartas("A");  // llama a la funcion contarCartas con el parametro "A" y disminuye el conteo

@@ -1,16 +1,27 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Ciclos "for" anidados.
+/* Tema: Ciclos "for" anidados.
 */
 
-var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+let miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];  // Este es un arreglo bidimensional. Es decir, un arreglo que contiene otros arreglos. Tiene 3 filas: [1, 2, 3], [4, 5, 6], y [7, 8, 9]
+
+
 
 // Por cada arreglo anidado
-for (var i = 0; i < arreglo.length; i++) {
-  var arregloAnidado = miArreglo[i];
+for (let i = 0; i < arreglo.length; i++) {  // Recorremos cada uno de los subarreglos (o "filas").
+   let arregloAnidado = miArreglo[i];       // Guardamos el subarreglo actual (la fila) en una variable para trabajar con ella más fácilmente.
+
+
   // Por cada elemento del arreglo anidado
-  for (var j = 0; j < fila.length; j++) {
-    console.log(arregloAnidado[j]);
+  for (let j = 0; j < fila.length; j++) {   // Ahora recorremos los elementos dentro de esa fila.
+    console.log(arregloAnidado[j]);          //Imprimimos cada número individual.
   }
 }
+/*Resultado en la consola:
+1
+2
+3
+4
+5
+6
+7
+8
+9*/

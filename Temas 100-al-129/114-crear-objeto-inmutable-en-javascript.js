@@ -1,7 +1,6 @@
-/*
-Curso de freeCodeCamp: "Aprende JavaScript - Curso Completo desde Cero".
-Curso Creado por: Estefania Cassingena Navone (@EstefaniaCassN).
-Tema: Crear un objeto inmutable en JavaScript.
+/* Tema: Crear un objeto inmutable en JavaScript.
+En JavaScript, los objetos son mutables, lo que significa que pueden ser modificados desppués de su creación.
+Puedes crear un objeto inmutable utilizando el constructor Object.freeze(). No puedo ni agregar, cambiar ni borar propiedades de un objeto inmutable.
 */
 
 let colores = {
